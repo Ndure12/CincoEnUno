@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Nav Bar*/
+
+.header_container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.nav_bar{
+    font-family: 'Montserrat', sans-serif;
+    
+   
+
+}
+
+.nav_top{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 2vh 0;
+    align-items: center;
+    height: 50px;
+    z-index: 500;
+    
+}
+
+.logo{
+    font-weight: 300;
+    font-size: 3vh;
+    padding: 0 1vh;
+    
+}
+.btn_menu{
+    padding: 0 2vh;
+    cursor: pointer;
+}
+
+.nav_option{
+    text-align: center;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    line-height: 10vh;
+    top: -100vh;
+    transition: all .8s;
+    z-index: -1;
+
+}
+
+.show{
+    top: 50px;
+}
+
+.over_hidden{
+    overflow: hidden;
+}
+
+.button_links{
+    list-style: none;
+    
+}
+
+.button_a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 7vh;
+}
+
+.button_contacto{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 7vh;
+    
+}
+
+/*Portada*/
+
+.banner_container{
+    width: 100%;
+    height: 40vh;
+    background-image: url(Sonya7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+}
+
+
+
+.presentation{
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.presentation_h1{
+    margin: 8px;
+}
+
+.button_cotizer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* desarrollo*/
+
+
+.desarrollo_first{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+    text-align: center;
+}
+
+.h3_desarrollo{
+    margin: 20px 0 0 0;
+    padding: 8px;
+    text-transform: uppercase;
+    border: 3px solid black;
+}
+
+.sony_png{
+    object-fit: contain;
+    height: 40vh;
+    width: 100%;
+
+}
+
+
+/*Desarrollo segundo*/
+
+.h3_desarrollosecond, .p_desarrollosecond, .contact_button{
+    margin: 10px;
+    
+}
+
+
+
+
+.contenedor_second{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3_desarrollosecond{
+    text-transform: uppercase;
+}
+
+.p_desarrollosecond{
+    font-weight: 400;
+    line-height: 3vh;
+}
+
+.button_contactsecond{
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+
+}
+
+/*Tercer desarrollo*/
+
+.div_li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desarrollo_third{
+    text-align: center;
+    margin: 15px;
+}
+
+
+
+
+.li_third{
+    font-size: 2.8vh;
+    list-style: none;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+/*Footer*/
+
+footer{
+
+    background-color: gray;
+}
+
+.footer_container{
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_item{
+    margin: 15px
+}
+
+.h5_footer{
+    text-transform: uppercase;
+}
+
+.li_footer{
+    list-style: none;
+    padding: 3px;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: black;
+}
+
+.a_footer{
+    margin: 5px;
+}
+
+/*Firma*/
+
+.footer_footer{
+    font-weight: 300;
+    text-align: center;
+    padding: 0 0 8px 0;
+}
